@@ -75,10 +75,10 @@ if(window.location.hostname=="127.0.0.1"){
 } else {
   let subfolder = 'wink-scroll' // change this to the subfolder you've put models folder on your server
   Promise.all([
-    faceapi.nets.tinyFaceDetector.loadFromUri('/'+subfolder+'/models'),
-    faceapi.nets.faceLandmark68Net.loadFromUri('/'+subfolder+'/models'),
-    faceapi.nets.faceRecognitionNet.loadFromUri('/'+subfolder+'/models'),
-    faceapi.nets.faceExpressionNet.loadFromUri('/'+subfolder+'/models')
+    faceapi.nets.tinyFaceDetector.loadFromUri('/models'),
+    faceapi.nets.faceLandmark68Net.loadFromUri('/models'),
+    faceapi.nets.faceRecognitionNet.loadFromUri('/models'),
+    faceapi.nets.faceExpressionNet.loadFromUri('/models')
   ]).then(startVideo)
 }
 
