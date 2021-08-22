@@ -11,8 +11,8 @@ text.id = "txt";
 text.style.fontSize = "200%";
 var video = document.createElement("VIDEO");
 video.id = "video";
-video.width = 400
-video.height = 298
+video.width = 749
+video.height = 560
 video.autoplay = true;
 video.defaultMuted = true;
 video.style.position = "absolute";
@@ -24,11 +24,12 @@ if(!DEBUG){
 video.load();
 var canvas2 = document.createElement("CANVAS");
 canvas2.id = "canvas2"
-canvas2.width = 190
-canvas2.height = 93
+canvas2.width = 300
+canvas2.height = 150
 canvas2.style.position = "absolute";
 canvas2.style.top = 308 + "px";
 canvas2.style.right = 248 + "px";
+canvas2.style.width = "194px";
 var canvas3 = document.createElement("CANVAS");
 canvas3.id = "canvas3"
 canvas3.width = canvas2.width
@@ -36,6 +37,7 @@ canvas3.height = canvas2.height
 canvas3.style.position = "absolute";
 canvas3.style.top = 308 + "px";
 canvas3.style.right = 40 + "px";
+canvas3.style.width = "194px";
 
 document.body.appendChild(video);
 document.body.appendChild(canvas2);
@@ -119,6 +121,7 @@ video.addEventListener('play', () => {
   canvas.style.position = "absolute"
   canvas.style.top = 20 + "px"
   canvas.style.right = 62.5 + "px"
+  canvas.style.width = "400px"
   document.body.append(canvas)
 
   const displaySize = { width: video.width, height: video.height }
@@ -267,6 +270,7 @@ video.addEventListener('play', () => {
     // Check if y axes of centroid is more than a threshold (that means eye winking)
     if(cy >  5 * 150 / 7) {
       if(DEBUG) {
+        basketball.shoot();
         text.innerHTML = "😉"
         // text.style.backgroundColor = "red"
         // text.style.color = "red"
