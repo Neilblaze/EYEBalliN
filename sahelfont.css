@@ -1,0 +1,110 @@
+@font-face {
+    font-family: Sahel;
+    src: url('Sahel.eot');
+    src: url('Sahel.eot?#iefix') format('embedded-opentype'),
+         url('Sahel.woff2') format('woff2'),
+         url('Sahel.woff') format('woff'),
+         url('Sahel.ttf') format('truetype');
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: Sahel;
+    src: url('Sahel-Bold.eot');
+    src: url('Sahel-Bold.eot?#iefix') format('embedded-opentype'),
+         url('Sahel-Bold.woff2') format('woff2'),
+         url('Sahel-Bold.woff') format('woff'),
+         url('Sahel-Bold.ttf') format('truetype');
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: Sahel;
+    src: url('Sahel-Light.eot');
+    src: url('Sahel-Light.eot?#iefix') format('embedded-opentype'),
+         url('Sahel-Light.woff2') format('woff2'),
+         url('Sahel-Light.woff') format('woff'),
+         url('Sahel-Light.ttf') format('truetype');
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: Sahel;
+    src: url('Sahel-SemiBold.eot');
+    src: url('Sahel-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('Sahel-SemiBold.woff2') format('woff2'),
+         url('Sahel-SemiBold.woff') format('woff'),
+         url('Sahel-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+  }
+  
+  @font-face {
+    font-family: Sahel;
+    src: url('Sahel-Black.eot');
+    src: url('Sahel-Black.eot?#iefix') format('embedded-opentype'),
+         url('Sahel-Black.woff2') format('woff2'),
+         url('Sahel-Black.woff') format('woff'),
+         url('Sahel-Black.ttf') format('truetype');
+    font-weight: 900;
+  }
+  
+  @font-face {
+      font-family: SahelF;
+      src: url('Farsi-Digits/Sahel-FD.eot');
+      src: url('Farsi-Digits/Sahel-FD.eot?#iefix') format('embedded-opentype'),
+      url('Farsi-Digits/Sahel-FD.woff2') format('woff2'),
+      url('Farsi-Digits/Sahel-FD.woff') format('woff'),
+      url('Farsi-Digits/Sahel-FD.ttf') format('truetype');
+      font-weight: normal;
+  }
+  
+  @font-face {
+      font-family: SahelF;
+      src: url('Farsi-Digits/Sahel-Bold-FD.eot');
+      src: url('Farsi-Digits/Sahel-Bold-FD.eot?#iefix') format('embedded-opentype'),
+      url('Farsi-Digits/Sahel-Bold-FD.woff2') format('woff2'),
+      url('Farsi-Digits/Sahel-Bold-FD.woff') format('woff'),
+      url('Farsi-Digits/Sahel-Bold-FD.ttf') format('truetype');
+      font-weight: bold;
+  }
+  
+  @font-face {
+      font-family: SahelF;
+      src: url('Farsi-Digits/Sahel-Light-FD.eot');
+      src: url('Farsi-Digits/Sahel-Light-FD.eot?#iefix') format('embedded-opentype'),
+      url('Farsi-Digits/Sahel-Light-FD.woff2') format('woff2'),
+      url('Farsi-Digits/Sahel-Light-FD.woff') format('woff'),
+      url('Farsi-Digits/Sahel-Light-FD.ttf') format('truetype');
+      font-weight: 100;
+  }
+  
+  @font-face {
+      font-family: SahelF;
+      src: url('Farsi-Digits/Sahel-Light-FD.eot');
+      src: url('Farsi-Digits/Sahel-Light-FD.eot?#iefix') format('embedded-opentype'),
+      url('Farsi-Digits/Sahel-Light-FD.woff2') format('woff2'),
+      url('Farsi-Digits/Sahel-Light-FD.woff') format('woff'),
+      url('Farsi-Digits/Sahel-Light-FD.ttf') format('truetype');
+      font-weight: 300;
+  }
+  
+  @font-face {
+      font-family: SahelF;
+      src: url('Farsi-Digits/Sahel-SemiBold-FD.eot');
+      src: url('Farsi-Digits/Sahel-SemiBold-FD.eot?#iefix') format('embedded-opentype'),
+      url('Farsi-Digits/Sahel-SemiBold-FD.woff2') format('woff2'),
+      url('Farsi-Digits/Sahel-SemiBold-FD.woff') format('woff'),
+      url('Farsi-Digits/Sahel-SemiBold-FD.ttf') format('truetype');
+      font-weight: 500;
+  }
+  
+  @font-face {
+      font-family: SahelF;
+      src: url('Farsi-Digits/Sahel-Black-FD.eot');
+      src: url('Farsi-Digits/Sahel-Black-FD.eot?#iefix') format('embedded-opentype'),
+      url('Farsi-Digits/Sahel-Black-FD.woff2') format('woff2'),
+      url('Farsi-Digits/Sahel-Black-FD.woff') format('woff'),
+      url('Farsi-Digits/Sahel-Black-FD.ttf') format('truetype');
+      font-weight: 800;
+  }
+  
